@@ -4,6 +4,13 @@
 # See https://www.atlassian.com/git/tutorials/saving-changes/gitignore.
 
 
-# Development
-.idea
+## Build
+__pycache__/
+*.pyc
+*.log
+*.pot
+
+## Development
+.idea/
 .env
+venv/
